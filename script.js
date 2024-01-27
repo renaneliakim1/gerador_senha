@@ -4,7 +4,6 @@ let copiar_senhaElement = document.querySelector("#copiar_senha");
 
 let sizeKey = document.querySelector("#valor");
 let Key = document.querySelector("#key");
-/* let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%&*"; */
 
 
 let numerosCheckbox = document.getElementById("numeros");
@@ -14,10 +13,6 @@ let simbolosCheckbox = document.getElementById("simbolos");
 
 
 let charset = "";
-
-
-/* sizeKey.innerHTML = customRange1Element.value;*/
-
 
 customRange1Element.addEventListener('input', function () {
     sizeKey.innerHTML = this.value;
